@@ -4,7 +4,7 @@
 from urllib.request import urlopen
 import json
 import sys
-#https://api.openweathermap.org/data/2.5/weather?q=OSLO&appid=499cd8cd149e4e4f03c2e67850670f4b
+
 def get_weather(city):
     sock = urlopen("https://api.openweathermap.org/data/2.5/weather?q=" + 
                    city + "&appid=499cd8cd149e4e4f03c2e67850670f4b")
